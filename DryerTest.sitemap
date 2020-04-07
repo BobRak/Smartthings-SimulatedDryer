@@ -1,0 +1,9 @@
+sitemap DryerTest label="Dryer Test"
+{
+    Frame label="Simulated dryer" {
+        Switch item=DryerSwitch
+        Switch item=DryerMachineState
+        Switch item=DryerMode
+        Text   item=DryerJobState
+    }
+}

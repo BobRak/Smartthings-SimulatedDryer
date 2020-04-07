@@ -1,0 +1,5 @@
+Bridge smartthings:smartthings:Home         [ smartthingsIp="192.168.87.37", smartthingsPort=39500 ] {
+    switch                   DryerSwitch           [ smartthingsName="Simulated Dryer" ]
+    dryerMode                DryerMode             [ smartthingsName="Simulated Dryer" ]
+    dryerOperatingState      DryerOperatingState   [ smartthingsName="Simulated Dryer" ]
+}

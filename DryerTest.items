@@ -1,0 +1,5 @@
+// Smartthings Dryer items
+Switch  DryerSwitch            "Dryer on/off"           <switch>           { channel="smartthings:switch:Home:DryerSwitch:switch" }
+String  DryerMode              "Dryer heating mode"     <switch>                   { channel="smartthings:dryerMode:Home:DryerMode:dryerMode" }
+String  DryerJobState          "Dryer job state"                           { channel="smartthings:dryerOperatingState:Home:DryerOperatingState:dryerJobState" }
+String  DryerMachineState      "Dryer machine state"                       { channel="smartthings:dryerOperatingState:Home:DryerOperatingState:machineState" }
